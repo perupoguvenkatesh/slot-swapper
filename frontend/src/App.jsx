@@ -4,7 +4,7 @@ import { useAuth } from './context/AuthContext';
 import Layout from './components/Layout';
 import AuthPage from './components/AuthPage';
 import Dashboard from './components/Dashboard';
-import Marketplace from './components/Marketplace';
+import Marketplace from './components/Marketplace.jsx';
 import Requests from './components/Requests';
 
 // A simple protected route component

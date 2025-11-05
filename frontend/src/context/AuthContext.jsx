@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-const API_URL = 'https://slot-swapper-9jdw.onrender.com/api'; 
+const API_URL = 'https://slot-swapper-9jdw.onrender.com/'; 
 const AuthContext = createContext(null);
 
 export const useAuth = () => useContext(AuthContext);
